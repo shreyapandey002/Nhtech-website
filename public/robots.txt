@@ -1,0 +1,18 @@
+# robots.txt for NHTech (NightHack Technology Private Limited)
+User-agent: *
+Allow: /
+Disallow: /api/
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://nighthack.in/sitemap.xml

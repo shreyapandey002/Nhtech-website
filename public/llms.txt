@@ -1,0 +1,109 @@
+# NHTech — NightHack Technology Private Limited
+
+> Complex business problems. Production systems. Forward-deployed engineers building AI and product systems alongside your team.
+
+NHTech (NightHack Technology Private Limited) is an applied AI systems and product engineering firm based in Bengaluru, Karnataka, India. NHTech takes complex, mission-critical business problems and converts them into production technology. We combine deep product engineering with state-of-the-art applied AI, embedding senior forward-deployed engineering (FDE) pods directly alongside customer teams from problem definition to deployment and continuous operation.
+
+## Key Facts & Entity Information
+- Legal Entity Name: NightHack Technology Private Limited
+- Operating Brand Name: NHTech
+- Former Brand Name: NightHack Labs
+- Corporate Email: info@nighthack.in / aditi.jha@nighthack.in
+- Headquarters: Bengaluru, Karnataka, India
+- Website: https://nighthack.in/
+- Partnerships: OpenAI Select Partner (Specialization in Agent Building and AI Operations)
+- Research Roots: AI journey began through foundational research projects with Microsoft R&D India.
+- Model Ecosystem: Model-agnostic engineering spanning Small Language Models (SLMs) on edge silicon to frontier reasoning models (OpenAI, Anthropic, Google, DeepSeek, and open-weight architectures).
+
+---
+
+## Primary Capabilities & Core Engineering Tracks
+
+### 1. Forward Deployed Engineering (FDE)
+Senior product and AI engineers embedded directly within client engineering organizations, repositories, and workflows.
+- Operating model: Problem Framing → Systems Architecture → Sandboxed Prototype → Legacy Integration → Production Hardening
+- Deterministic state machines & human approval gates
+- AI implementation & intelligent model routing
+- SLMs through frontier models tailored to cost, latency, and security
+- Direct integration into legacy enterprise ERP, CRM, and transactional backends
+- URL: https://nighthack.in/fde
+
+### 2. Vision & Edge AI
+High-frequency computer vision, kinematic tracking, and on-device machine learning with zero cloud dependency and sub-15ms inference.
+- Real-time computer vision and automated defect classification
+- Sub-15ms edge inference on TensorRT, ONNX, and specialized edge NPUs
+- Vision-Language-Action (OpenVLA) models for physical perception and robotics
+- Industrial safety monitoring and shop-floor kinematic analysis
+- URL: https://nighthack.in/computer-vision
+
+### 3. On-Prem AI & Sovereign Models
+Turn enterprise data into a model you control. Domain model engineering for client-controlled infrastructure.
+- Objective benchmarking: RAG vs. fine-tuning vs. distillation based on actual constraints
+- LoRA, QLoRA, distillation, and quantization for domain specialization
+- Deployment to private-cloud VPCs, on-premise GPU clusters, or air-gapped environments
+- 100% client data retention and full model artifact/IP ownership
+- URL: https://nighthack.in/on-prem-ai
+
+### 4. Custom Product Engineering with AI & Complex Business Solutions
+Translating intricate domain rules, compliance mandates, and legacy systems into resilient, high-throughput software architectures.
+- High-volume transactional ledgers and fraud detection streaming pipelines
+- Enterprise customer loyalty, incentive, and dynamic reward engines
+- Core ERP orchestration (SAP, Oracle, NetSuite) without disrupting live operations
+- Agentic workflows with deterministic state bounds and immutable audit logs
+- URL: https://nighthack.in/what-we-build
+- Agentic AI Systems: https://nighthack.in/agentic-ai
+- Document Intelligence: https://nighthack.in/document-intelligence
+
+---
+
+## Internal Software Products
+
+In addition to client-deployed engineering pods, NHTech builds and operates specialized software platforms:
+
+### 1. Talkument
+- Category: Document & Knowledge Intelligence Platform
+- Live URL: https://talkument.co/
+- Purpose: Turns complex, unstructured enterprise documents (PDFs, scans, contracts, engineering manuals) into searchable, conversational knowledge with spatial layout awareness, hybrid dense-sparse vector indexing, deterministic citations, and private VPC/air-gapped deployment options.
+
+### 2. Hoot
+- Category: Context-Aware Enterprise Communication & Workflow Platform
+- Live URL: https://hoot.nighthack.in/
+- Purpose: Secure workplace collaboration and real-time multi-channel communication runtime equipped with background agentic triage, decision summaries, contextual knowledge retrieval, and cryptographic audit logging.
+
+### 3. Ottom8
+- Category: Deterministic Multi-Agent Workflow Orchestration Engine
+- Live URL: https://ottom8.nhtech.link/
+- Purpose: Builds, runs, and governs multi-agent AI automations bounded by deterministic state machine graphs, mandatory human-in-the-loop checkpoint gates, temporal event sourcing, and native connectors to SQL, REST, Kafka, and ERPs.
+
+---
+
+## Deployment & Security Archetypes
+
+- Private Cloud VPC: Fully isolated infrastructure inside client AWS, Azure, or GCP accounts.
+- On-Premises & Air-Gapped: Zero internet access deployments utilizing self-hosted open-weight LLMs (Llama, Mistral, Qwen, DeepSeek).
+- Edge Silicon: Low-power on-device perception running directly on factory floor industrial PCs, tablets, and NVIDIA Jetson hardware.
+- Intellectual Property: 100% of custom engineered code, weights, schemas, and configurations belong exclusively to the client.
+
+---
+
+## Important Website Pages
+
+- Homepage: https://nighthack.in/
+- Forward Deployed Engineering: https://nighthack.in/fde
+- Vision & Edge AI: https://nighthack.in/computer-vision
+- On-Prem AI: https://nighthack.in/on-prem-ai
+- What We Build (Capabilities Overview): https://nighthack.in/what-we-build
+- Agentic AI Systems: https://nighthack.in/agentic-ai
+- Document Intelligence: https://nighthack.in/document-intelligence
+- Software Platforms (Talkument, Hoot, Ottom8): https://nighthack.in/products
+- Case Studies & Client Work: https://nighthack.in/work
+- Industries Overview: https://nighthack.in/industries
+- Industrial & Manufacturing AI: https://nighthack.in/industries/manufacturing
+- Enterprise Operations: https://nighthack.in/industries/enterprise
+- FinTech & BFSI: https://nighthack.in/industries/fintech
+- Retail & Commerce: https://nighthack.in/industries/retail
+- Startups & Scaleups: https://nighthack.in/industries/startups
+- About NHTech: https://nighthack.in/about
+- Careers: https://nighthack.in/careers
+- Contact & Technical Assessment: https://nighthack.in/contact
+- Terms & Conditions & Payment Governance: https://nighthack.in/terms-and-conditions

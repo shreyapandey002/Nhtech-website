@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    --font-display: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    --font-editorial: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    --font-mono: 'Roboto Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+    /* Theme Tokens - Dark Mode (Default) */
+    --bg-base: #09080d;
+    --bg-surface: #120d1c;
+    --bg-surface-elevated: #1a1326;
+    --bg-surface-subtle: #0d0a14;
+    --text-primary: #f7f4ec;
+    --text-secondary: #9f99aa;
+    --text-muted: #6e677a;
+    --border-color: rgba(215, 189, 249, 0.12);
+    --border-hover: rgba(215, 189, 249, 0.28);
+    
+    /* Limited Accent Palette */
+    --accent-primary: #e0fb2e; /* Acid Lime */
+    --accent-primary-text: #07060a;
+    --accent-secondary: #d7bdf9; /* Subtle Violet */
+    --accent-glow: rgba(224, 251, 46, 0.12);
+  }
+
+  html.light, [data-theme="light"] {
+    /* Theme Tokens - Light Mode */
+    --bg-base: #f7f6f2;
+    --bg-surface: #ffffff;
+    --bg-surface-elevated: #edebe4;
+    --bg-surface-subtle: #f0eee8;
+    --text-primary: #0a0812;
+    --text-secondary: #524d5d;
+    --text-muted: #827b90;
+    --border-color: rgba(14, 10, 24, 0.08);
+    --border-hover: rgba(14, 10, 24, 0.22);
+
+    /* Light Mode Accents */
+    --accent-primary: #0a0812;
+    --accent-primary-text: #ffffff;
+    --accent-secondary: #6336a8;
+    --accent-glow: rgba(10, 8, 18, 0.06);
+  }
+
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    width: 100%;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: var(--font-display);
+    line-height: 1.18;
+    letter-spacing: -0.025em;
+    font-weight: 700;
+  }
+
+  p, li, span, .text-body {
+    line-height: 1.6;
+  }
+
+  .font-editorial {
+    font-family: var(--font-display);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+.dark-date-popover {
+  background: #0d0d0d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  font-family: var(--font-mono);
+}
+
+.dark-date-popover button {
+  font-family: var(--font-mono);
+}
+
+.dark-date-popover .calendar-day {
+  border-radius: 6px;
+  transition: background-color 150ms ease, transform 150ms ease, box-shadow 150ms ease;
+}
+
+.dark-date-popover .calendar-day:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* Clear Typographic Scale with Generous Line-Height & No Clipping */
+.text-hero-display {
+  font-size: clamp(2rem, 5.2vw, 4.5rem);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.text-section-display {
+  font-size: clamp(1.65rem, 3.6vw, 3rem);
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+.text-card-display {
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
+/* Subtle architectural dot grid */
+.bg-subtle-grid {
+  background-size: 32px 32px;
+  background-image: radial-gradient(var(--border-color) 1px, transparent 1px);
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-secondary);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

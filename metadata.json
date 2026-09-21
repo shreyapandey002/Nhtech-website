@@ -1,0 +1,6 @@
+{
+  "name": "NHTech",
+  "description": "From complex business problems to production AI. Forward deployed engineers working alongside your team to design, build and productionise AI systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
